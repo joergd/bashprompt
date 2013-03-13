@@ -1,7 +1,3 @@
-source ~/.config/git-completion.sh
-source ~/.config/git-aliases.sh
-
-
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
