@@ -36,12 +36,6 @@ proml
 
 # export PS1="\w >: "
 
-alias blinkplanapp="ssh admin@108.166.113.196"
-alias blinkplandb="ssh joergd@208.78.102.206 -p 2222"
-alias fluttervoice="ssh joergd@208.78.96.148 -p 2222"
-alias faceoff="ssh admin@67.207.146.236"
-alias faceofffdemo="ssh admin@demo.faceofff.com"
-alias syrex="ssh root@webruby.lair.co.za"
 alias bspec="bundle exec rspec"
 alias brake="bundle exec rake"
 alias be="bundle exec"
