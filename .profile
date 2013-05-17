@@ -42,14 +42,7 @@ alias fluttervoice="ssh joergd@208.78.96.148 -p 2222"
 alias faceoff="ssh admin@67.207.146.236"
 alias faceofffdemo="ssh admin@demo.faceofff.com"
 alias syrex="ssh root@webruby.lair.co.za"
-alias trac="ssh ublip@12.71.216.72"
-alias trac_prod="ssh ublip@12.71.216.68"
-alias five="ssh five_tv@fivetvsastaging.dmgstage1.com"
-alias contiki="ssh www-data@stage3-man.contiki.com"
-alias ss="mongrel_rails start"
-alias ssp="ss -S config/mongrel_upload_progress.conf"
 alias bspec="bundle exec rspec"
-alias bcuke="bundle exec cucumber"
 alias brake="bundle exec rake"
 alias be="bundle exec"
 alias l="ls -al"
@@ -73,33 +66,5 @@ export PATH=~/bin:$PATH
 
 export PATH=~/dev/q/bin:$PATH
 
-export FORECAST_PLACE="Cape Town"
-
 # EDITOR="mate -w"
 export EDITOR='subl -w'
-
-test -r /sw/bin/init.sh && . /sw/bin/init.sh
-
-if [[ -s "$HOME/.rvm/scripts/rvm" ]]  ; then source "$HOME/.rvm/scripts/rvm" ; fi
-
-[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
-
-##
-# Your previous /Users/joerg/.profile file was backed up as /Users/joerg/.profile.macports-saved_2010-04-26_at_14:57:07
-##
-
-[[ -s "/Users/joerg/.rvm/scripts/rvm" ]] && source "/Users/joerg/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-[[ -s "/Users/joerg/.rvm/scripts/rvm" ]] && source "/Users/joerg/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# {{{
-# Node Completion - Auto-generated, do not touch.
-shopt -s progcomp
-for f in $(command ls ~/.node-completion); do
-  f="$HOME/.node-completion/$f"
-  test -f "$f" && . "$f"
-done
-# }}}
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
