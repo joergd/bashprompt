@@ -1,5 +1,5 @@
-# source ~/.config/git-completion.sh
-# source ~/.config/git-aliases.sh
+source ~/.config/git-completion.sh
+source ~/.config/git-aliases.sh
 
 
 function parse_git_branch {
@@ -35,6 +35,7 @@ proml
 
 
 alias ll="ls -al"
+alias d-c="docker-compose"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
 export PATH=/usr/local/git/bin:$PATH
@@ -44,3 +45,10 @@ export EDITOR='subl -w'
 export GIT_EDITOR="subl -w"
 export BUNDLER_EDITOR="subl -w"
 export GIT_SSL_NO_VERIFY=1
+
+export NVM_DIR="/Users/joerg/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+eval "$(rbenv init -)"
