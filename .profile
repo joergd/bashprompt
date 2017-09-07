@@ -36,10 +36,15 @@ proml
 
 alias ll="ls -al"
 alias d-c="docker-compose"
+alias dex="docker exec -it "
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
 export PATH=/usr/local/git/bin:$PATH
 export PATH=~/bin:$PATH
+
+# GnuPG
+export PATH=/usr/local/gnupg-2.2/bin:$PATH
 
 export EDITOR='subl -w'
 export GIT_EDITOR="subl -w"
@@ -52,3 +57,4 @@ export NVM_DIR="/Users/joerg/.nvm"
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init -)"
+
